@@ -20,7 +20,7 @@ public class TaskService {
         return taskRepository.findById(id);
     }
 
-    public List<Task> getTaskByUserId(Long userId){
+    public List<Task> getTasksByUserId(Long userId){
         return taskRepository.findByUserId(userId);
     }
 
